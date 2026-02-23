@@ -1,4 +1,4 @@
-# GreenCart 🛒
+# BookStore 🛒
 
 ![status](https://img.shields.io/badge/status-active-brightgreen) ![server-version](https://img.shields.io/badge/server-v1.0.0-blue) ![client-version](https://img.shields.io/badge/client-v0.0.0-blue)
 
@@ -22,7 +22,7 @@
 
 ## What the project does
 
-**GreenCart** is an e-commerce reference app with a modern React (Vite) frontend and an Express API backend. It implements common real-world features needed for an online store:
+**BookStore** is an e-commerce reference app with a modern React (Vite) frontend and an Express API backend. It implements common real-world features needed for an online store:
 
 - Product listing, categories, category groups and product details
 - Shopping cart and checkout flows (Razorpay / PhonePe / Stripe integrations)
@@ -133,22 +133,6 @@ Tip: The code appends `/omMuruga` to `MONGODB_URI` (see `server/configs/db.js`).
 
 ---
 
-## Who maintains and how to contribute 🤝
-
-**Maintainers**
-
-- Project owner/maintainer: (Please add maintainer name and contact in this section)
-
-How to contribute:
-
-1. Fork the repository and create a topic branch
-2. Add tests or verify behaviour manually on `localhost`
-3. Open a pull request describing your change
-4. Follow a consistent commit/message style
-
-Please add a `CONTRIBUTING.md` file for project-specific contribution rules if you want to formalize the workflow.
-
----
 
 ## Useful commands & tips 🔧
 
@@ -158,10 +142,6 @@ Please add a `CONTRIBUTING.md` file for project-specific contribution rules if y
 - Lint client: `cd client && npm run lint`
 - Start server (prod): `cd server && npm start`
 
----
 
-If you'd like, I can also add a `docs/CONTRIBUTING.md` template and a `.env.example` file listing recommended variables. ✅
-
----
 
 _Last updated: Jan 31, 2026_
